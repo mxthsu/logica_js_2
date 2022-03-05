@@ -1,10 +1,3 @@
-<meta charset="UTF-8">
-
-<h1>Esquadro</h1>
-
-<canvas width="600" height="400"></canvas>
-
-<script>
 
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
@@ -22,5 +15,3 @@
     pincel.lineTo(100, 350);
     pincel.lineTo(275, 350);
     pincel.fill();
-
-</script>

@@ -1,10 +1,3 @@
-<meta charset="UTF-8">
-
-<h1>Esquadro</h1>
-
-<canvas width="600" height="400"></canvas>
-
-<script>
 
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
@@ -27,5 +20,3 @@
 }
 
     desenhaEsquadro(50, 50, 400, 400, 'black');
-
-</script>

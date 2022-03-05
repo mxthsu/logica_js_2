@@ -1,6 +1,3 @@
-<canvas width="600" height="400"></canvas>
-
-<script>
 
     function desenhaCirculo(x, y, raio, cor) {
 
@@ -26,5 +23,3 @@
     pincel.fillRect(0, 0, 600, 400);
 
     desenhaFlor(500, 200);
-
-</script>

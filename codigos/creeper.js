@@ -1,10 +1,4 @@
-<meta charset="UTF-8">
 
-<h1>Creeper</h1>
-
-<canvas width="600" height="400"></canvas>
-
-<script>
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 
@@ -19,4 +13,3 @@
 
     pincel.fillRect(300, 240, 40, 110);
     pincel.fillRect(410, 240, 40, 110);    
-</script>

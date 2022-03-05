@@ -1,6 +1,3 @@
-<canvas width="700" height="500"></canvas>
-
-<script>
 
     function desenhaQuadrado(x, y, tamanho, cor) {
 
@@ -32,5 +29,3 @@
     desenhaQuadrado(150, y, 100, 'green');
     desenhaQuadrado(250, y, 100, 'green');
     desenhaQuadrado(350, y, 100, 'white');
-
-</script>

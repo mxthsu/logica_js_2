@@ -1,6 +1,4 @@
-<canvas width="1920" height="1080"></canvas>
 
-<script>
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 
@@ -30,5 +28,3 @@
     }
     
     setInterval(animacao, 2);
-    
-</script>
